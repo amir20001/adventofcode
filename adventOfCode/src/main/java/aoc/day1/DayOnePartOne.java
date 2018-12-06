@@ -2,7 +2,7 @@ package aoc.day1;
 
 import java.util.List;
 
-public class PartOne {
+public class DayOnePartOne {
 
     public static int run (List<Integer> values){
         int total =0;

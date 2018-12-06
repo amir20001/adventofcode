@@ -9,11 +9,13 @@ import java.nio.file.Paths;
 import java.util.List;
 import java.util.stream.Collectors;
 
+public class DayOnePartOneTest {
 
-public class PartTwoTest {
+
+
     @Test
     public void run() throws IOException {
         List<String> lines = Files.readAllLines(Paths.get(getClass().getResource("/d1p1-input.txt").getPath()), StandardCharsets.UTF_8);
-        System.out.println(PartTwo.run(lines.stream().map(Integer::parseInt).collect(Collectors.toList())));
+        System.out.println(DayOnePartOne.run(lines.stream().map(Integer::parseInt).collect(Collectors.toList())));
     }
 }
